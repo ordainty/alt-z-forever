@@ -1,0 +1,43 @@
+name: Bug report
+description: Something in Alt+Z Forever isn't working as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. In game, type `/azf report` (or select **Report a bug** in `/azf menu`) and paste the report into the last box.
+        If a frame fades when it shouldn't, or stays when it should fade, point at it and type `/azf under` first, then open the report.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      description: The steps, if you know them. "Every time I mount" is plenty.
+  - type: input
+    id: version
+    attributes:
+      label: Addon version
+      description: The first line of the report has it.
+  - type: textarea
+    id: other-addons
+    attributes:
+      label: Other addons
+      description: The report lists the loaded ones. Name any you suspect.
+  - type: textarea
+    id: lua-error
+    attributes:
+      label: Lua error
+      description: If the game showed an error, paste it here.
+      render: text
+  - type: textarea
+    id: report
+    attributes:
+      label: Report
+      description: Paste the text from `/azf report` here.
+      render: text

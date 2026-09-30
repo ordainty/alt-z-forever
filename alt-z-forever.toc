@@ -1,0 +1,17 @@
+## Interface: 16001
+## Title: Alt+Z Forever
+## Author: Ordainty
+## Notes: Responsively fades the UI when you're not using it, as if you've pressed Alt+Z. curseforge.com/wow/addons/alt-z-forever
+## IconTexture: Interface\AddOns\alt-z-forever\icon.tga
+## X-Website: https://ordainty.com/addons/alt-z-forever
+## X-Curse-Project-ID: 1718955
+## Version: 0.1.0
+## SavedVariables: AltZForeverDB
+
+alt-z-forever.lua
+element-row.lua
+settings-window.lua
+quick-toggle.lua
+report-window.lua
+welcome-window.lua
+minimap-button.lua

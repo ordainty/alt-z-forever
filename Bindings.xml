@@ -1,0 +1,23 @@
+<Bindings>
+	<!--
+	  category is what titles the section in Blizzard's keybinding panel, not header.
+	  A literal string gets its own section; category="ADDONS" would put all the keys in
+	  the generic "AddOns" bucket. The panel resolves the value as a global first and
+	  falls back to the text; the literal has no load-order dependency.
+
+	  Bindings.xml is read at client start. Editing this file needs a full restart,
+	  not a /reload.
+	-->
+	<Binding name="ALTZFOREVER_TOGGLE" category="Alt+Z Forever">
+		AltZForever_Toggle()
+	</Binding>
+	<Binding name="ALTZFOREVER_QUICKTOGGLE" category="Alt+Z Forever">
+		AltZForever_QuickToggle()
+	</Binding>
+	<Binding name="ALTZFOREVER_QUICKCARD" category="Alt+Z Forever">
+		AltZForever_QuickCard()
+	</Binding>
+	<Binding name="ALTZFOREVER_HIDEALL" category="Alt+Z Forever">
+		AltZForever_HideAll()
+	</Binding>
+</Bindings>

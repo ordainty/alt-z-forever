@@ -1,0 +1,16 @@
+title: Alt+Z Forever
+description: "An addon for World of Warcraft: Forever that fades your interface when you aren't using it."
+url: https://ordainty.github.io
+baseurl: /alt-z-forever
+
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+plugins:
+  - jekyll-remote-theme
+
+search_enabled: true
+heading_anchors: true
+
+aux_links:
+  Website: https://ordainty.com/addons/alt-z-forever
+  GitHub: https://github.com/ordainty/alt-z-forever
+aux_links_new_tab: true
